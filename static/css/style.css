@@ -3,12 +3,71 @@ body {
 }
 
 .header-wrapper {
-    /* max-width: 1200px; */
-    background-color: #FFFFFF; */
+  padding: 0px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.main-title {
+  margin-top: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.icon-item img {
+  margin-right: 10px;
+}
+
+.hf-logo {
+  height: 1em;
+}
+
+.button-container a {
+  margin-right: 8px;
+}
+
+.teaser-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.small-teaser {
+  max-width: 200px;  /* Set a smaller width for the teaser image */
+  margin-top: 10px;  /* Reduce top margin for more compact layout */
+}
+
+.header-wrapper {
+    max-width: 80%;
+    background-color: #FFFFFF;
+    margin: 0 auto; /* This will center the header-wrapper horizontally */
+    /* background: linear-gradient(127deg, #73C6C1 0%, #A7D8D6 50%, #F4EADC 100%); */
 
     /* background: linear-gradient(127deg, #265073 0%, #596FB7 45%, #C6CF9B 70%, rgb(244,234,203) 100%); */
     /* background: linear-gradient(-235deg, #000000 10%, #122153 55%, #FEAE6F 85%, rgb(244,234,203) 100%); */
-    
 }
 
 .header-container {
@@ -223,7 +282,7 @@ body {
   }
 
   .header-image img {
-    max-width: 90%; /* Image should be responsive within the container */
+    max-width: 70%; /* Image should be responsive within the container */
     height: auto; /* Maintain the aspect ratio */
   }
 }
