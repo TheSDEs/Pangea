@@ -288,17 +288,17 @@ h2 {
 }
 
 
-.byline {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+/* .byline {
+  /* border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0 5px 10px; /* Add padding to the top and bottom */
-  margin-bottom: 20px;
-}
+  /* margin-bottom: 20px; 
+*/
 
 .byline-container {
-    padding-top: 2rem;
+    padding-top: 0rem;
     padding-bottom: 0.5rem;
-    text-align: center;  /* Center align the text */
+    text-align: center;  
 }
 
 
